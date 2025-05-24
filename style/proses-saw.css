@@ -1,0 +1,118 @@
+
+/* ====== Global Styles ====== */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #a8dadc, #457b9d);
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* ====== Header ====== */
+.header {
+    background-color: #1d3557;;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav-buttons {
+    margin-top: 10px;
+}
+
+.nav-buttons a {
+    background-color: #2563eb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #1d4ed8;
+}
+
+/* ====== Table Styling ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #1d3557;;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+/* ====== Detail Container ====== */
+.detail-container {
+    background-color: #e2e8f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.detail-container h3 {
+    color: #1e3a8a;
+}
+
+.detail-container ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* ====== Button Styling ====== */
+.btn {
+    display: inline-block;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* ====== Responsive Design ====== */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
